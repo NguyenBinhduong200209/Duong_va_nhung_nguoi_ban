@@ -1,0 +1,31 @@
+.a{
+    display: flexbox;
+    color: rgb(68, 234, 68);
+}
+.login{
+   
+    margin: ;
+    position: fixed;
+    left: 35%;
+    bottom: 30%;background-color: lightgrey;
+    width: 400px;
+    border: 10px solid rgb(8, 15, 8);
+    padding: 20px;
+    
+  
+
+}
+.tieude
+{
+    display: flex;
+    justify-content:flex-end
+}
+.input
+{
+    font-size: 200%;
+}
+.inpu{
+    
+    color: green
+    ;
+}
