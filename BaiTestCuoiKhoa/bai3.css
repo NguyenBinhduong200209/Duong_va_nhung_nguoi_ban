@@ -1,0 +1,28 @@
+.a{
+    margin-left: 10%;
+    width: 1213px;
+    height: 854px;
+    display: flex;
+  
+}
+.main{
+    background-color: white;
+    
+   
+
+    display: flex;
+   
+   
+}
+.user{
+    display: flex; 
+    display: inline;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 50px;
+}
+.nav2{
+    border: solid 2px bisque;
+}
