@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    
+}
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #373a3c;
+    background-color: #fff;
+}
+.tieude{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+.tieude1  {
+    margin-left: 270px;
+}
+.tieude1 a
+{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight:bold;
+    color: #5CB85C ;
+}
+.tieude2 {
+    margin-right:270px;
+    padding: 5px;
+}
+.tieude2 a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight:600;
+    color:rgba(0, 0, 0, 0.3);
+    
+}
+.tieude2 a:hover {
+    color: black;
+    
+}
+.main
+{   
+    background-color: #5CB85C;
+    width: 100%;
+    height: 170px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -6px 2px 9px 0px black;;
+}
+
+.mainbig a {
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+}
+.mainsmall{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color:#fff ;
+    font-weight: 300 !important
+}
+.tieudeduoi {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-left:10rem;
+}
+.tieudeduoi1 {
+    display: flex;
+   
+}
+.tieudetrai {
+    margin-left: 120px;
+    margin-top: 40px;
+    width: 55%;
+}
+.content {
+    margin-top: 25px;
+}
+.nametext {
+    padding-bottom: 20px;
+    position: relative;
+}
+.nametext a  {
+    color: #5CB85C;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nametext a:hover {
+    color: #3d8b3d;
+    text-decoration: underline;
+}
+.nametext img {
+    
+    border-radius: 30px;
+}
+.nametext p {
+    font-size: 15px;  
+}
+.content p {
+    color:  #999;
+}
+.a {
+    position: absolute;
+    left: 40px;
+    top:-8px
+}
+hr {
+    height: 1px;
+    background-color: #999;
+    margin-top: 20px;
+}
+.tieude3 span {
+    color: #5CB85C;
+    padding: 22px;
+    border: none;
+    border-bottom: 2px solid #5CB85C;
+}
+
+
+.tieudephai {
+    margin: 30px;
+    width: 240px;
+    height: 150px;
+    padding: 5px 10px 10px 10px;
+    background: #f3f3f3;
+    border-radius: 4px;
+}
+.row1 p {
+    font-size: 15px;}
+.txt{
+    font-size: 20px;
+}
+.tags{
+    padding: 2px;
+    font-size: 15px;
+    background-color: gray;
+    border-radius: 10px;;
+    border: solid 1px gray;
+    color: #f3f3f3;
+}
