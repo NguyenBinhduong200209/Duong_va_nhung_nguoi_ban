@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CodeChallenge.css">
+</head>
+
+<body>
+    <div class="tieude">
+        <div class="tieude1">MindX</div>
+        <div class="tieude2">Technology School</div>
+    </div>
+    <div> <form action="" id="tim" class="bang">
+    <div class="a">Lucky Number</div>
+    <div class="b">Dự đoán con số của bạn từ 1->10</div>
+    <div class="c">
+        <div class="d"> <input id="input" type="number" placeholder="Nhập con số may mắn của bạn"></div>
+        <div class="e"> <input id="" class="btn" type="button" value="Quay số" onclick="onClick()"></div>
+
+</form>
+</div>
+    <div id="in1" class="in3"></div>
+    <div id="in" class="in"></div>
+    <div id="in2" class="in2"></div>
+
+    
+    <script type="">
+        function onClick() {
+            let inNer=document.getElementById("in");
+            let inNer1=document.getElementById("in1");
+            let inNer2=document.getElementById("in2");
+            let luachon=document.getElementById("input").value;
+            let a= Math.floor(Math.random() * 10);
+            inNer.innerHTML='Sô may mắn:'+a+''
+           
+            console.log(a);
+            if (luachon>=10) {
+                inNer1.innerHTML="Mời Bạn Nhập lại!"
+                return false;
+                
+            }
+            else  if (luachon==a) {
+            console.log("Bạn đã đoán đúng");
+            inNer2.innerHTML="Bạn đã đoán đúng"
+        }
+            else  {
+                console.log("chúc bạn may mắn");
+                inNer2.innerHTML="Chúc bạn may mắn";
+                
+                
+        }
+      
+    }     
+
+   
+       
+        
+          
+      
+       
+    </script>
+
+</body>
+
+</html>
